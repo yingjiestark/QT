@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	var wsUri = "ws://127.0.0.1:8080"
+	 websocket = new WebSocket(wsUri);
+        websocket.onopen = function(evt) {
+           
+        };
+        websocket.onclose = function(evt) {
+            
+        };
+        websocket.onmessage = function(evt) {
+           
+        };
+        websocket.onerror = function(evt) {
+            
+        };
+        function click_send(){
+        	var msg = document.getElementById("msg").value;
+        	websocket.send(msg);
+        }
+</script>
+<body>
+<input type="text" id="msg" name="">
+<button onclick="click_send();">按钮</button>
+</body>
+</html>

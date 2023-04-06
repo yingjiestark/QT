@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.ico</file>
+        <file>svg-tools.png</file>
+        <file>deepin-compressor.svg</file>
+        <file>Download.ico</file>
+    </qresource>
+</RCC>

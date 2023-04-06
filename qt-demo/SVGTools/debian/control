@@ -1,0 +1,15 @@
+Source: svg-tools
+Section: utils
+Priority: optional
+Maintainer: Packages <arv003@163.com>
+Build-Depends:
+ debhelper (>= 11),
+ cmake,
+
+
+Standards-Version: 1.0.0
+Package: svg-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: svg图片转化工具.
+    svg图片转化工具.

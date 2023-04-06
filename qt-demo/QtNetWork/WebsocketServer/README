@@ -1,0 +1,35 @@
+# webSocket
+
+```plantuml
+@startuml
+class MainWindow{
+    - WebsocketServer *m_ptrWebsocketServer;
+    void slotClickCreateServer()
+}
+class WescoketServer{
+    - QWebSocketServer *m_pWebSocketServer
+    - QList<QWebSocket *> m_clients
+    --slots--
+   + void onNewConnection()
+   + void processTextMessage(QString message)
+   + void processBinaryMessage(QByteArray message)
+   + void socketDisconnected()
+}
+class QWebSocketServer{
+    --signal--
+   + void newConnection()
+   + void closed()
+
+}
+class QWebSocket{
+    --signal--
+    + void textMessageReceived(QString message)
+    + void binaryMessageReceived(QByteArray message)
+    + void disconnected()
+}
+MainWindow "1" <--o "1"   WescoketServer
+WescoketServer "1" <--o "1"   QWebSocketServer
+WescoketServer "1" <--o "n"   QWebSocket
+
+@enduml
+```

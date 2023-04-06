@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>db.sql</file>
+        <file>db/game.db</file>
+        <file>resources/suo.png</file>
+    </qresource>
+</RCC>

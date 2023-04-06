@@ -1,0 +1,2 @@
+注入运行脚本为
+LD_PRELOAD=./preloadso.so ./main

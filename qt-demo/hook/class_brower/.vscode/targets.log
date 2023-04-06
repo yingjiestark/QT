@@ -1,0 +1,316 @@
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 11 09:06:06 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = deepin
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+ANDROID_NDK_ROOT = /usr/local/android-ndk-r25
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/arv000/.Xauthority
+# environment
+GDMSESSION = deepin
+# environment
+XMODIFIERS = @im=fcitx
+# makefile
+CURDIR := /media/arv000/c19ee280-30c9-43bc-a890-05e8c96984bc/00-work/03-self/qt/hook/class
+# makefile
+SHELL = /bin/sh
+# environment
+NM = nm
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"/home/arv000/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/tcf.json","_cacheRoot":"/home/arv000/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/arv000/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/4af164ea3a06f701fe3e89a2bcbb421d2026b68f","_corruptedFile":"/home/arv000/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /opt/apps/com.visualstudio.code/files/code/code
+# makefile
+MAKEFILE_LIST := 
+# environment
+JAVA_HOME = /usr/local/jdk1.8
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+QT_SCREEN_SCALE_FACTORS = 1
+# environment
+QT_LOGGING_RULES = *.debug=false
+# environment
+CLUTTER_IM_MODULE = fcitx
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ab63887a-b18a-4c73-8dc4-4b2a099326f8.sock
+# environment
+VSCODE_CWD = /home/arv000
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin
+# environment
+auto_proxy = https://it.uniontech.com/proxy/proxy.pac
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+AR = ar
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANDROID_HOME = ~/.android
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm/data/arv000
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = deepin
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 19031
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /media/arv000/c19ee280-30c9-43bc-a890-05e8c96984bc/00-work/03-self/qt/hook/class
+# environment
+COCOS_TEMPLATES_ROOT = /media/arv000/2E50C0F250C0C237/cocos2d-x/templates
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = Deepin
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/arv000
+# environment
+XDG_CACHE_HOME = /home/arv000/.cache
+# environment
+VSCODE_CODE_CACHE_PATH = /home/arv000/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = arv000
+# environment
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 4.2.1
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = fcitx
+# environment
+SHLVL = 0
+# environment
+QT_QPA_PLATFORM = xcb
+# environment
+CC = clang
+# environment
+SDL_IM_MODULE = fcitx
+# environment
+XDG_SESSION_ID = 2
+# environment
+USER = arv000
+# makefile
+.DEFAULT_GOAL := 
+# environment
+XDG_CURRENT_DESKTOP = Deepin
+# environment
+CLASSPATH = .:/usr/local/jdk1.8/lib/dt.jar:/usr/local/jdk1.8/lib/tools.jar
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+COCOS_CONSOLE_ROOT = /media/arv000/2E50C0F250C0C237/cocos2d-x/tools/cocos2d-console/bin
+# environment
+COCOS_X_ROOT = /media/arv000/2E50C0F250C0C237
+# default
+.VARIABLES := 
+# environment
+INPUT_METHOD = fcitx
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-b563b573-1.68.0-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+NO_AT_BRIDGE = 1
+# environment
+QT_DBL_CLICK_DIST = 15
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKE_COMMAND := make
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+CXX = clang++
+# environment
+XDG_CONFIG_HOME = /home/arv000/.config
+# environment
+ANDROID_SDK_ROOT = /usr/local/android-sdk-linux/
+# environment
+LC_ALL = C
+# environment
+SBX_CHROME_API_RQ = 1
+# automatic
+^F = $(notdir $^)
+# environment
+XDG_DATA_HOME = /home/arv000/.local/share
+# default
+SUFFIXES := 
+# environment
+NDK_ROOT = /usr/local/android-ndk-r25
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+D_DXCB_FORCE_OVERRIDE_HIDPI = 1
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 17258
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=9/138=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2051, inode 1182012): 7 files, no impossibilities.
+
+# 7 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 15 / storage = 121 B / avg = 8 B
+# current buf: size = 8162 B / used = 121 B / count = 15 / avg = 8 B
+
+# strcache performance: lookups = 18 / hit rate = 16%
+# hash-table stats:
+ 
+# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
+# Finished Make data base on Thu Aug 11 09:06:06 2022
+
+ 

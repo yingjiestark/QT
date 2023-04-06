@@ -1,0 +1,2 @@
+# qt实现动态系统托盘效果
+系统托盘实现的类库QSystemTrayIcon

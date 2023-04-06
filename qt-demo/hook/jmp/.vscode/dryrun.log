@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/media/arv000/c19ee280-30c9-43bc-a890-05e8c96984bc/00-work/03-self/qt/hook/jmp'
+make: Leaving directory '/media/arv000/c19ee280-30c9-43bc-a890-05e8c96984bc/00-work/03-self/qt/hook/jmp'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

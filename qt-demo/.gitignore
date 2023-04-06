@@ -1,0 +1,6 @@
+*-Debug/
+README.html
+*-Default/
+*-Release/
+*.pro.user
+*.user

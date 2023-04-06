@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>lei.png</file>
+        <file>flag.png</file>
+        <file>time.png</file>
+        <file>ico.png</file>
+        <file>ask.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/直播.png</file>
+        <file>Resources/action.jpg_</file>
+    </qresource>
+</RCC>

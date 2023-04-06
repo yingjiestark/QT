@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Qt;
+Comment=将SVG图片专为png、jpg、bmp、jpeg等图片
+Exec=/usr/bin/svg-tools  %F
+GenericName=SVG图片转化工具
+Icon=/usr/share/icons/hicolor/scalable/apps/svg-tools.png
+Keywords=svg;
+Name=SVG图片转化工具
+StartupNotify=true
+Terminal=false
+TryExec=/usr/bin/svg-tools
+Type=Application
+X-Deepin-Vendor=svg-tools
+
+# Translations:
+# Do not manually modify!
+Comment[zh_CN]=SVG工具
+Name[zh_CN]=SVG工具
+

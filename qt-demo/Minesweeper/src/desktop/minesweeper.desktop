@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Qt;
+Comment=扫雷游戏
+Exec=/usr/bin/Minesweeper %F
+GenericName=扫雷游戏
+Icon=/usr/share/icons/hicolor/scalable/apps/lei.png
+Keywords=svg;
+Name=扫雷游戏
+StartupNotify=true
+Terminal=false
+TryExec=/usr/bin/Minesweeper
+Type=Application
+X-Deepin-Vendor=Minesweeper
+
+# Translations:
+# Do not manually modify!
+Comment[zh_CN]=扫雷
+Name[zh_CN]=扫雷
+
